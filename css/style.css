@@ -16,8 +16,8 @@ html {
 }
 
 .container {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -237,11 +237,13 @@ header nav ul li:hover > a::after {
 .imgs-campus {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  margin: auto;
 }
 
 .img-container {
   position: relative;
-  min-width: 400px;
+  width: 400px;
+  margin: auto;
 }
 
 .img-container img {
@@ -317,7 +319,7 @@ header nav ul li:hover > a::after {
 /* ***************************** */
 .student-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 .student-card {
   background-color: #fff3f3;
@@ -476,8 +478,12 @@ footer {
     transform: none;
   }
 
+  .imgs-campus {
+    margin-left: -10px;
+  }
+
   .img-container {
-    max-width: 300px;
+    max-width: 250px;
     margin: auto;
   }
 
